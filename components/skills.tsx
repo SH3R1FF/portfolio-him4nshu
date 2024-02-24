@@ -2,12 +2,13 @@ import React from 'react'
 import { skills } from "@/constants";
 import Image from 'next/image';
 import Modalular from "@/components/Modal"
-import { Button, Tooltip, Divider } from '@nextui-org/react';
+import { Button, Tooltip } from '@nextui-org/react';
 
 const skill = () => {
   return (
    <>
-        <section className="relative mt-20 flex-col  max-w-5xl mx-auto sm:p-16 pb-12 lg:block px-8 sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] flex opaaaaa ">
+        <section className="relative mt-20 flex-col  max-w-5xl mx-auto sm:p-16 pb-12 lg:block  sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] flex opaaaaa ">
+    
             <h1 className='heading sm:text-7xl text-3xl font-black text-center animate-slidein opacity-0 [--slidein-delay:300ms]'>
                 SKILLS
             </h1>
@@ -15,7 +16,7 @@ const skill = () => {
                     <p className="text-base text-justify sm:text-center">Skilled in creating responsive and user-friendly web interfaces. Proficient in Reactjs , Nextjs and modern web technologies, dedicated to crafting visually appealing and performant digital experiences.</p>
             </div>
 
-            <div className="mt-16 flex flex-wrap gap-12 justify-center items-center">
+            <div className="mt-16 flex flex-wrap sm:gap-12 gap-4 justify-center items-center">
 
             
                     {skills.map((skills) => (

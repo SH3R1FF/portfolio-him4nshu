@@ -4,6 +4,7 @@ import Image from "next/image";
 import "./globals.css";
 import { Button } from "@nextui-org/react";
 import About from "@/components/about";
+import Modalular from "@/components/Modal"
 
 export default function Home() {
 
@@ -35,15 +36,12 @@ export default function Home() {
             </h4>
           </div>
 
-          <div className="lg:mt-16 mt-12 flex lg:gap-x-6  max-sm:flex-col font-normal max-sm:gap-y-3 ">
+          <div className="lg:mt-16 mt-12 flex gap-x-6  max-sm:flex-col pText font-medium  max-sm:gap-y-3 ">
 
-            <Button  className="bg-white tracking-widest  " variant="shadow" endContent={<Image width="30" height="30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABXElEQVR4nO2ZMU7DMBSGv4WgICp2DtG1gDgBnIEReoaWAdoZbtNuXSl3ILkADHCBwENIb2AoaRw7tR38S2+JrN/vi+M/UQxJSUlNdADMgRKoAOmoKp1jBuQum3/usGn5o9auIOYemhetexcApUeAwgVAl8+8NNgT1hLPZa02k74D18Cx1g3wEQtABYw2+IxaPo7WMp1wUeO1jAHgocbrMQaARewr8Amcb/A5iWUPiCbO+FcKjWNKIXFc1vo3ABMga+D3M2YaIkBm4LkfIsCegWcWIsCFgedliACvwGkDvzPgLUQAAb6AFXAFDIEjraFeW+mYIFNIOiprJQACXoGJYf63ealZq8780N6egU+AqYMVuE2beItSCtGjFMoMP6UlxBTaljoScgo1SR1JnxJ9S6Eq9t/rpUeAFxcAM48Ady4Acj1w23XzTy5PKnM9cCt2cMxa6J131nxSUp/1DRd/K6bTBArIAAAAAElFTkSuQmCC" alt="resume"/>}>
-              RESUME
+            <Modalular />
+            <Button onClick={damn} className="bg-lime-400 pText font-medium"  endContent={<Image width="30" height="30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA1ElEQVR4nO3WQUoDQRCF4W+vSx3Fy0SPoOQWyVayNh5I8R6iCzHJLZLRbRIZKCG4cnrCNAz9Qy+r3uvqruqmUBgYE1zmEp9ij0UuExU+wsQKV8WEUgkDuBMVHvGG70jUZX1Gzn8xRn0E0SQDY+wi6AkjnLQtXwykRdsBVR3s/D5BtJO4OPPfnfcu3vAegU3Zexdv+IrgU+25OGi7ZWrv14kGjiIuer5Jci3TczyPRM+5PiTn2ISJmUzcYRsmXnCTeCk7cYv1n1HaO2d4wGu0Z6EwPH4AMJtvAS2XOHoAAAAASUVORK5CYII=" alt="explore"/>}>
+              Explore
             </Button>
-
-              <Button onClick={damn} className="bg-lime-300 tracking-widest " variant="shadow" endContent={<Image width="30" height="30" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA1ElEQVR4nO3WQUoDQRCF4W+vSx3Fy0SPoOQWyVayNh5I8R6iCzHJLZLRbRIZKCG4cnrCNAz9Qy+r3uvqruqmUBgYE1zmEp9ij0UuExU+wsQKV8WEUgkDuBMVHvGG70jUZX1Gzn8xRn0E0SQDY+wi6AkjnLQtXwykRdsBVR3s/D5BtJO4OPPfnfcu3vAegU3Zexdv+IrgU+25OGi7ZWrv14kGjiIuer5Jci3TczyPRM+5PiTn2ISJmUzcYRsmXnCTeCk7cYv1n1HaO2d4wGu0Z6EwPH4AMJtvAS2XOHoAAAAASUVORK5CYII=" alt="explore"/>}>
-                  EXPLORE
-              </Button>
           </div>
         </div>
       </div> 

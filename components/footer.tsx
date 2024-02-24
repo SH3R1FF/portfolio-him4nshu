@@ -20,7 +20,7 @@ const footer = () => {
               Designed and Developed By 
               
               <Link target="_blank" href="https://twitter.com/sheriffign" rel="noreferrer">
-                  <div className='text-sm flex gap-x-2 text-lime-200 font-medium justify-center items-center 
+                  <div className='text-sm flex gap-x-2 text-lime-300 font-medium justify-center items-center 
                   outline-none transition-transform duration-400 ease-in-out hover:-translate-y-1 focus:ring-2 focus:ring-white/20 focus:ring-offset-4
                   focus:ring-offset-black 
                   '>

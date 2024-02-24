@@ -6,7 +6,6 @@ const about = () => {
   return (
     <>
         <section  className="relative flex-col max-w-5xl mx-auto sm:p-16 pb-12 lg:block px-8 sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] flex  opaaaaa">
-
             <div>
                 <h1 className="heading sm:text-7xl text-3xl font-black text-center animate-slidein opacity-0 [--slidein-delay:300ms]">
                     ABOUT
@@ -18,24 +17,26 @@ const about = () => {
                 </div>
             </div>
             
-            <div className='grid mt-8 grid-cols-2  text-black gap-4 h-[400px] sm:mx-32 heading'>
+            <div className='grid mt-8 sm:grid-cols-2 grid-cols-1  text-black gap-4 h-[400px] sm:mx-32 heading'>
               <div className='rounded-xl flex flex-col items-center justify-center border backdrop-blur-2xl bg-zinc-800/30 border-neutral-800 text-lime-300 '>
                 <span className='text-3xl mb-2'>  
                   🚀
                 </span>
-               EFFICIENCY
+               <h3>
+                Web Development
+               </h3>
               </div>
               <div className='rounded-xl flex flex-col items-center justify-center border backdrop-blur-2xl bg-zinc-800/30 border-neutral-800 text-lime-300'>
               <span className='text-3xl mb-2'>  
                 💻  
               </span>
-              2YR+ EXP
+                Web Design
               </div>
               <div className='rounded-xl flex flex-col items-center justify-center border backdrop-blur-2xl bg-zinc-800/30 border-neutral-800 text-lime-300'>
               <span className='text-3xl mb-2'>    
                 📈
               </span>
-                15+ PROJECTS
+                10+ PROJECTS
               </div>
               <div className='rounded-xl flex flex-col items-center justify-center border backdrop-blur-2xl bg-zinc-800/30 border-neutral-800 text-lime-300'>
               <span className='text-3xl mb-2'>  
