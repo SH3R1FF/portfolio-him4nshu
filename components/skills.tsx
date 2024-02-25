@@ -5,6 +5,14 @@ import Modalular from "@/components/Modal"
 import { Button, Tooltip } from '@nextui-org/react';
 
 const skill = () => {
+
+    const damn = () => (
+
+        window.scrollTo({top: 20, behavior: 'smooth'})
+
+      )
+    
+
   return (
    <>
         <section className="relative mt-20 flex-col  max-w-5xl mx-auto sm:p-16 pb-12 lg:block  sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] flex opaaaaa ">
@@ -20,10 +28,10 @@ const skill = () => {
 
             
                     {skills.map((skills) => (
-                        <div className="block-container w-20 h-20 ">
+                        <div className="block-container w-20 h-20" key={skills.name}>
                             <div className="rounded-xl "/>
-                            <Tooltip content={skills.name} className='border border-neutral-700 bg-transparent text-lime-300'>
-                                <Button className="border backdrop-blur-2xl bg-zinc-800/30 border-neutral-800 rounded-xl flex justify-center items-center h-20 w-20">
+                            <Tooltip content={skills.name}  className='border border-neutral-700 bg-transparent text-lime-300'>
+                                <Button className="border backdrop-blur-2xl bg-zinc-800/30 border-neutral-800 rounded-xl flex justify-center items-center h-20 w-20" >
                                     <Image 
                                         src={skills.imageUrl}
                                         alt={skills.name} 
@@ -37,9 +45,12 @@ const skill = () => {
                     ))}
               </div>
 
-            <div className='mt-36 flex flex-col justify-center items-center '>
+            <div className='mt-36 flex gap-2 justify-center items-center '>
                 <Modalular />
                 {/* <Divider className='bg-slate-50/20 mt-20' /> */}
+                <Button onClick={damn}>
+                    Back to Top ↑
+                </Button>
             </div>
             
         </section>
