@@ -31,7 +31,7 @@ export default function Page() {
           {projects.map( (project) => (
              <Card 
               // className="max-w-[400px] font-sans dark:bg-zinc-800/30 bg-gradient-to-b dark:from-inherit dark:border-neutral-800  border"
-              className="max-w-[400px]  dark:bg-zinc-800/30 bg-gradient-to-b from-inherit border-neutral-800 border"
+              className="max-w-[400px]  bg-zinc-800/30 bg-gradient-to-b from-inherit  border-neutral-800 border"
               key={project.name}
              >
             {/* <Skeleton className="rounded-lg dark:bg-zinc-900 " isLoaded={isLoaded}> */}
@@ -56,7 +56,7 @@ export default function Page() {
                </div>
              </CardHeader>
              <Divider className="bg-slate-50/20"/>
-            <Skeleton className="rounded-lg dark:bg-zinc-800/30 " isLoaded={isLoaded}>
+            <Skeleton className="rounded-lg dark:bg-zinc-800/30 dark bg-zinc-800/30 " isLoaded={isLoaded}>
               
              <CardBody>
                <p className="text-slate-400 py-2 text-sm">{project.description}</p>

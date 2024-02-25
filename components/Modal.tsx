@@ -33,7 +33,7 @@ export default function App() {
           }
         }}
       >
-        <ModalContent className="dark:bg-zinc-900 from-inherit  border-neutral-800 border">
+        <ModalContent className="bg-zinc-900 from-inherit  border-neutral-800 border">
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1 text-lime-100 font-medium">Download Resume</ModalHeader>
