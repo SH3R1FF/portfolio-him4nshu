@@ -1,18 +1,34 @@
 import React from 'react'
 import { skills } from "@/constants";
 import Image from 'next/image';
-import Modalular from "@/components/Modal"
-import { Button, Tooltip } from '@nextui-org/react';
+// import Modal from "@/components/Modal"
+import {Popover, PopoverTrigger, PopoverContent, Button, Tooltip } from '@nextui-org/react';
+import Link from 'next/link';
 
 const skill = () => {
 
+    const content = (
+        <PopoverContent className='border border-neutral-700 bg-transparent p-2'>
+
+                <Link href="https://www.hitwebcounter.com" target="_blank">
+                    <img
+                    src="https://hitwebcounter.com/counter/counter.php?page=11563803&style=0001&nbdigits=5&type=ip&initCount=0"
+                    title="Counter Widget"
+                    alt="Visit counter For Websites"
+                    width={100}
+                    height={40}
+                    className='h-6 w-50'
+                    />
+                </Link>
+        </PopoverContent>
+    )
+
     const damn = () => (
 
-        window.scrollTo({top: 20, behavior: 'smooth'})
+        window.scrollTo({top: 0, behavior: 'smooth'})
 
       )
     
-
   return (
    <>
         <section className="relative mt-20 flex-col  max-w-5xl mx-auto sm:p-16 pb-12 lg:block  sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] flex opaaaaa ">
@@ -46,8 +62,17 @@ const skill = () => {
               </div>
 
             <div className='mt-36 flex gap-2 justify-center items-center '>
-                <Modalular />
-                {/* <Divider className='bg-slate-50/20 mt-20' /> */}
+                {/* <Modal /> */}
+               
+                <Popover placement="top" offset={10}>
+                    <PopoverTrigger>
+                        <Button  variant="flat" className="capitalize font-medium bg-lime-400 ">
+                            Website Visits ↑
+                        </Button>
+                    </PopoverTrigger>
+                    {content}
+                </Popover>
+
                 <Button onClick={damn}>
                     Back to Top ↑
                 </Button>

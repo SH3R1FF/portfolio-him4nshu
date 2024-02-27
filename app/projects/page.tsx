@@ -1,8 +1,9 @@
 "use client"
 
-import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image,Skeleton} from "@nextui-org/react";
+import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image,Skeleton, Button} from "@nextui-org/react";
 import { projects } from "@/constants"
 import { useEffect,useState } from "react";
+import Modal from "@/components/Modal"
 
 export default function Page() {
 
@@ -15,6 +16,12 @@ export default function Page() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  const damn = () => (
+
+    window.scrollTo({top: 0, behavior: 'smooth'})
+
+  )
 
   return (
     
@@ -33,9 +40,7 @@ export default function Page() {
               // className="max-w-[400px] font-sans dark:bg-zinc-800/30 bg-gradient-to-b dark:from-inherit dark:border-neutral-800  border"
               className="max-w-[400px]  bg-zinc-800/30 bg-gradient-to-b from-inherit  border-neutral-800 border"
               key={project.name}
-             >
-            {/* <Skeleton className="rounded-lg dark:bg-zinc-900 " isLoaded={isLoaded}> */}
-
+             >    
              <CardHeader className="flex gap-3">
                <Image
                  alt="nextui logo"
@@ -72,12 +77,18 @@ export default function Page() {
                  Visit source code on GitHub.
                </Link>
              </CardFooter>
-            {/* </Skeleton> */}
            </Card>
  
           ))}
 
       </div>
+
+      <div className='lg:mt-36 mt-24 flex gap-2 justify-center items-center '>
+                <Modal />
+                <Button onClick={damn}>
+                    Back to Top ↑
+                </Button>
+            </div>
     </main>
   )
 }

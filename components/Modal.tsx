@@ -39,25 +39,10 @@ export default function App() {
               <ModalHeader className="flex flex-col gap-1 text-lime-100 font-medium">Download Resume</ModalHeader>
               <ModalBody >
                 <p> 
-                  {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam. */}
                     Passionate and detail-oriented Web Developer with a strong foundation in programming and a passion for
                     creating user-friendly, scalable, and efficient web applications. I am eager to apply my technical skills and
                     knowledge to contribute to a dynamic development team.
                 </p>
-                {/* <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                </p>
-                <p>
-                  Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
-                  dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
-                  Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
-                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
-                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
-                </p> */}
               </ModalBody>
               <ModalFooter>
                 <Button color="danger" variant="light" onPress={onClose}>

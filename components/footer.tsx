@@ -1,4 +1,4 @@
-import { Button, Divider } from '@nextui-org/react'
+import { Divider } from '@nextui-org/react'
 import Link from 'next/link'
 import {Avatar} from "@nextui-org/react";
 
@@ -6,13 +6,6 @@ const footer = () => {
   return (
     <>
       <section className='h-12 max-w-5xl mx-auto flex flex-col justify-center items-center pb-4 gap-x-2 gap-y-4 text-sm'>
-      {/* <a href="https://www.hitwebcounter.com" target="_blank">
-            <img
-              src="https://hitwebcounter.com/counter/counter.php?page=11563803&style=0001&nbdigits=5&type=ip&initCount=0"
-              title="Counter Widget"
-              alt="Visit counter For Websites"
-            />
-        </a> */}
 
         <Divider className='bg-slate-50/20 ' />
           
