@@ -67,9 +67,9 @@ export default function Page() {
                <p className="text-slate-400 py-2 text-sm">{project.description}</p>
              </CardBody>
 
-             <CardBody className="flex flex-row gap-2">      
+             <CardBody className="flex flex-row gap-x-2">      
                 {project.tags.map((tags) => (
-                  <Chip variant="dot" className={`text-white bg-zinc-800/30 border-neutral-800`} key={tags.name}>
+                  <Chip  className={`text-white bg-zinc-800/30 border-neutral-800 max-sm:text-xs`} key={tags.name}>
                       {tags.name}
                   </Chip>
                 ))}
