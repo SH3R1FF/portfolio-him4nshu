@@ -11,7 +11,7 @@ const prompt = Prompt({
 });
 
 export const metadata: Metadata = {
-  title: "Him4nshu | Dev",
+  title: "Him4nshu",
   description: "Personal Portfolio",
 };
 

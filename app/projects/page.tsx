@@ -1,10 +1,9 @@
 "use client"
 
-import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image,Skeleton, Button} from "@nextui-org/react";
+import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image,Skeleton, Button, Chip, Avatar} from "@nextui-org/react";
 import { projects } from "@/constants"
 import { useEffect,useState } from "react";
 import Modal from "@/components/Modal"
-
 export default function Page() {
 
   const [isLoaded, setIsLoaded] = useState(false);
@@ -58,6 +57,7 @@ export default function Page() {
                    >
                    {project.live_name}
                  </Link>
+                 
                </div>
              </CardHeader>
              <Divider className="bg-slate-50/20"/>
@@ -66,6 +66,15 @@ export default function Page() {
              <CardBody>
                <p className="text-slate-400 py-2 text-sm">{project.description}</p>
              </CardBody>
+
+             <CardBody className="flex flex-row gap-2">      
+                {project.tags.map((tags) => (
+                  <Chip variant="dot" className={`text-white bg-zinc-800/30 border-neutral-800`} key={tags.name}>
+                      {tags.name}
+                  </Chip>
+                ))}
+             </CardBody>
+
             </Skeleton>
              <Divider className="bg-slate-50/20"/>
              <CardFooter>
@@ -83,7 +92,7 @@ export default function Page() {
 
       </div>
 
-      <div className='lg:mt-36 mt-24 flex gap-2 justify-center items-center '>
+      <div className='mt-32 mb-16 flex gap-2 justify-center items-center '>
                 <Modal />
                 <Button onClick={damn}>
                     Back to Top ↑

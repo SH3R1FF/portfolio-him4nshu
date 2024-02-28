@@ -124,6 +124,20 @@ export const projects = [
         live: 'https://zen-anime.vercel.app',
         live_name: 'zen-anime.vercel.app',
         github: 'https://github.com/SH3R1FF/zen_anime',
+        tags: [
+            {
+              name: "Nextjs",
+              
+            },
+            {
+              name: "Typescript",
+              
+            },
+            {
+              name: "Server action",
+
+            },
+          ],
     },
     {  
         name: 'sumz-ai-summarizer',
@@ -131,6 +145,20 @@ export const projects = [
         live: 'https://sumz-summarizer.netlify.app',
         live_name: 'sumz-summarizer.netlify.app',
         github: 'https://github.com/SH3R1FF/sumz-ai-summarizer',
+        tags: [
+            {
+              name: "Reactjs",
+              
+            },
+            {
+              name: "Javascript",
+              
+            },
+            {
+              name: "Redux",
+              
+            },
+          ],
     },
     {  
         name: 'hoobank-app',
@@ -138,6 +166,20 @@ export const projects = [
         live: 'https://hoobank-sh.netlify.app',
         live_name: 'hoobank-sh.netlify.app',
         github: 'https://github.com/SH3R1FF/hooBank',
+        tags: [
+            {
+              name: "Reactjs",
+              
+            },
+            {
+              name: "Javascript",
+              
+            },
+            {
+              name: "Tailwindcss",
+              
+            },
+          ],
     },
     {  
         name: 'clime-app',
@@ -145,6 +187,20 @@ export const projects = [
         live: 'https://clime-app.netlify.app',
         live_name: 'clime-app.netlify.app',
         github: 'https://github.com/SH3R1FF/clime',
+        tags: [
+            {
+              name: "Reactjs",
+              
+            },
+            {
+              name: "Javascript",
+              
+            },
+            {
+              name: "WeatherApi",
+              
+            },
+          ],
     },
     {  
         name: 'zenboard',
@@ -152,6 +208,20 @@ export const projects = [
         live: 'https://zenboard-sh.netlify.app',
         live_name: 'zenboard-sh.netlify.app',
         github: 'https://github.com/SH3R1FF/zenboard',
+        tags: [
+            {
+              name: "Nextjs",
+              
+            },
+            {
+              name: "Zustand",
+              
+            },
+            {
+              name: "Appwrite",
+              
+            },
+          ],
     },
     {  
         name: 'dashboard',
@@ -159,6 +229,20 @@ export const projects = [
         live: 'https://dashboard-sh.netlify.app',
         live_name: 'dashboard-sh.netlify.app',
         github: 'https://github.com/SH3R1FF/dashboard-sh',
+        tags: [
+            {
+              name: "Nextjs",
+              
+            },
+            {
+              name: "Javascript",
+              
+            },
+            {
+              name: "Chartjs",
+              
+            },
+          ],
     },
  
 ];
