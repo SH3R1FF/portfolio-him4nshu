@@ -5,7 +5,7 @@ import Skills from "@/components/skills"
 const about = () => {
   return (
     <>
-        <section  id='about' className="relative flex-col max-w-5xl mx-auto sm:p-16 pb-12 lg:block px-8 sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] flex  opaaaaa">
+        <section className="relative flex-col max-w-5xl mx-auto sm:p-16 pb-12 lg:block px-8 sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] flex  opaaaaa">
             <div>
                 <h1 className="heading sm:text-7xl text-3xl font-black text-center animate-slidein opacity-0 [--slidein-delay:300ms]">
                     ABOUT

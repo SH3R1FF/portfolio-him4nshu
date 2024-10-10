@@ -45,7 +45,7 @@ export default function Page() {
                  alt="nextui logo"
                  height={40}
                  radius="sm"
-                 src="https://avatars.githubusercontent.com/u/86160567?s=200&v=4"
+                 src={project.logo}
                  width={40}
                  />
                <div className="flex flex-col">

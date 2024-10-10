@@ -119,27 +119,59 @@ export const skills = [
 
 export const projects = [
     {  
-        name: 'zen-anime',
-        description: 'Application which is One-stop hub for anime titles with ratings for effortless exploration.',
-        live: 'https://zen-anime.vercel.app',
-        live_name: 'zen-anime.vercel.app',
-        github: 'https://github.com/SH3R1FF/zen_anime',
+        logo: 'https://joinfeedora.vercel.app/favicon.ico',
+        name: 'feedora',
+        description: 'Feedora transforms feedback into meaningful insights that drive improvements and accelerate growth.',
+        live: 'https://joinfeedora.vercel.app',
+        live_name: 'joinfeedora.vercel.app',
+        github: 'https://github.com/SH3R1FF/feedora',
         tags: [
             {
               name: "Nextjs",
               
             },
             {
-              name: "Typescript",
+              name: "MongoDB",
               
             },
             {
-              name: "Server action",
-
+              name: "NextAuth",
+              
             },
+            // {
+            //   name: "Zod",
+              
+            // },
           ],
     },
     {  
+        logo: 'https://joinguild.vercel.app/favicon.ico',
+        name: 'guild',
+        description: 'Guild is a project showcase app designed to help users display and share their work effortlessly.',
+        live: 'https://joinguild.vercel.app',
+        live_name: 'joinguild.vercel.app',
+        github: 'https://github.com/SH3R1FF/guild',
+        tags: [
+            {
+              name: "Nextjs",
+              
+            },
+            {
+              name: "MongoDB",
+              
+            },
+            {
+              name: "Clerk",
+              
+            },
+            {
+              name: "Zod",
+              
+            }
+          ],
+    },
+    {  
+        logo: 'https://sumz-summarizer.netlify.app/assets/favicon-60633b2b.ico',
         name: 'sumz-ai-summarizer',
         description: 'AI based Web application that condenses articles into concise summaries and saves time.',
         live: 'https://sumz-summarizer.netlify.app',
@@ -160,19 +192,66 @@ export const projects = [
             },
           ],
     },
+
     {  
-        name: 'hoobank-app',
-        description: 'An Experience banking website with a sleek touch, offering a fully responsive design and modern UI/UX.',
-        live: 'https://hoobank-sh.netlify.app',
-        live_name: 'hoobank-sh.netlify.app',
+      logo: 'https://zenboard-sh.netlify.app/favicon.ico',
+      name: 'zenboard',
+      description: 'Efficient Kanban board streamlining project management and tools for enhanced productivity.',
+      live: 'https://zenboard-sh.netlify.app',
+      live_name: 'zenboard-sh.netlify.app',
+      github: 'https://github.com/SH3R1FF/zenboard',
+      tags: [
+          {
+            name: "Nextjs",
+            
+          },
+          {
+            name: "Zustand",
+            
+          },
+          {
+            name: "Appwrite",
+            
+          },
+        ],
+  },
+  {  
+    logo: 'https://zen-anime.vercel.app/favicon.ico',
+    name: 'zen-anime',
+    description: 'Application which is One-stop hub for anime titles with ratings for effortless exploration.',
+    live: 'https://zen-anime.vercel.app',
+    live_name: 'zen-anime.vercel.app',
+    github: 'https://github.com/SH3R1FF/zen_anime',
+    tags: [
+        {
+          name: "Nextjs",
+          
+        },
+        {
+          name: "Typescript",
+          
+        },
+        {
+          name: "Server action",
+
+        },
+      ],
+},
+
+    {  
+        logo: 'https://ai-startup-landing-page-one.vercel.app/favicon.ico',
+        name: 'ai-saas-landing-page',
+        description: 'An Experience AI saas website with a sleek touch, offering a fully responsive design and modern UI/UX.',
+        live: 'https://ai-startup-landing-page-one.vercel.app',
+        live_name: 'ai-startup-landing.vercel.app',
         github: 'https://github.com/SH3R1FF/hooBank',
         tags: [
             {
-              name: "Reactjs",
+              name: "NextJs",
               
             },
             {
-              name: "Javascript",
+              name: "FramerMotion",
               
             },
             {
@@ -181,69 +260,70 @@ export const projects = [
             },
           ],
     },
-    {  
-        name: 'clime-app',
-        description: 'Web Application which provides weather conditions for any city and to search for current weather.',
-        live: 'https://clime-app.netlify.app',
-        live_name: 'clime-app.netlify.app',
-        github: 'https://github.com/SH3R1FF/clime',
-        tags: [
-            {
-              name: "Reactjs",
+    // {  
+    //     name: 'hoobank-app',
+    //     description: 'An Experience banking website with a sleek touch, offering a fully responsive design and modern UI/UX.',
+    //     live: 'https://hoobank-sh.netlify.app',
+    //     live_name: 'hoobank-sh.netlify.app',
+    //     github: 'https://github.com/SH3R1FF/hooBank',
+    //     tags: [
+    //         {
+    //           name: "Reactjs",
               
-            },
-            {
-              name: "Javascript",
+    //         },
+    //         {
+    //           name: "Javascript",
               
-            },
-            {
-              name: "WeatherApi",
+    //         },
+    //         {
+    //           name: "Tailwindcss",
               
-            },
-          ],
-    },
-    {  
-        name: 'zenboard',
-        description: 'Efficient Kanban board streamlining project management and tools for enhanced productivity.',
-        live: 'https://zenboard-sh.netlify.app',
-        live_name: 'zenboard-sh.netlify.app',
-        github: 'https://github.com/SH3R1FF/zenboard',
-        tags: [
-            {
-              name: "Nextjs",
+    //         },
+    //       ],
+    // },
+    // {  
+    //     name: 'clime-app',
+    //     description: 'Web Application which provides weather conditions for any city and to search for current weather.',
+    //     live: 'https://clime-app.netlify.app',
+    //     live_name: 'clime-app.netlify.app',
+    //     github: 'https://github.com/SH3R1FF/clime',
+    //     tags: [
+    //         {
+    //           name: "Reactjs",
               
-            },
-            {
-              name: "Zustand",
+    //         },
+    //         {
+    //           name: "Javascript",
               
-            },
-            {
-              name: "Appwrite",
+    //         },
+    //         {
+    //           name: "WeatherApi",
               
-            },
-          ],
-    },
-    {  
-        name: 'dashboard',
-        description: 'A user-friendly admin dashboard providing analytics,and management tools for administration.',
-        live: 'https://dashboard-sh.netlify.app',
-        live_name: 'dashboard-sh.netlify.app',
-        github: 'https://github.com/SH3R1FF/dashboard-sh',
-        tags: [
-            {
-              name: "Nextjs",
+    //         },
+    //       ],
+    // },
+    
+    // {  
+    //     name: 'dashboard',
+    //     description: 'A user-friendly admin dashboard providing analytics,and management tools for administration.',
+    //     live: 'https://dashboard-sh.netlify.app',
+    //     live_name: 'dashboard-sh.netlify.app',
+    //     github: 'https://github.com/SH3R1FF/dashboard-sh',
+    //     tags: [
+    //         {
+    //           name: "Nextjs",
               
-            },
-            {
-              name: "Javascript",
+    //         },
+    //         {
+    //           name: "Javascript",
               
-            },
-            {
-              name: "Chartjs",
+    //         },
+    //         {
+    //           name: "Chartjs",
               
-            },
-          ],
-    },
+    //         },
+    //       ],
+    // },
  
 ];
 
