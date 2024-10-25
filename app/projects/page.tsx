@@ -1,6 +1,6 @@
 "use client"
 
-import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image,Skeleton, Button, Chip, Avatar} from "@nextui-org/react";
+import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image,Skeleton, Button, Chip, Avatar, Tooltip} from "@nextui-org/react";
 import { projects } from "@/constants"
 import { useEffect,useState } from "react";
 import Modal from "@/components/Modal"
@@ -43,13 +43,13 @@ export default function Page() {
              <CardHeader className="flex gap-3">
                <Image
                  alt="nextui logo"
-                 height={40}
+                 height={30}
                  radius="sm"
                  src={project.logo}
-                 width={40}
+                 width={30}
                  />
                <div className="flex flex-col">
-                 <p className="text-md text-white">{project.name}</p>
+                 <p className="text-lg text-white">{project.name}</p>
                  <Link 
                    className="text-small cursor-pointer font-extralight text-lime-300"
                    href={project.live}
@@ -67,12 +67,20 @@ export default function Page() {
                <p className="text-slate-400 py-2 text-sm">{project.description}</p>
              </CardBody>
 
-             <CardBody className="flex flex-row gap-x-2">      
-                {project.tags.map((tags) => (
-                  <Chip  className={`text-white bg-zinc-800/30 border-neutral-800 max-sm:text-xs`} key={tags.name}>
-                      {tags.name}
-                  </Chip>
-                ))}
+             <CardBody className="flex flex-row gap-x-4 ">    
+                
+                  {project.tech.map((tech) => (
+                    <Tooltip  className={`text-lime-100 bg-zinc-800/30 border-neutral-800 max-sm:text-xs mx-2 `} key={tech.name} content={tech.name}>
+
+                      <Image
+                        src={tech.link}
+                        alt={tech.name}
+                        className="h-[26px] w-[26px]"
+                        />
+                        
+                  </Tooltip>
+                  ))}
+        
              </CardBody>
 
             </Skeleton>
@@ -92,12 +100,21 @@ export default function Page() {
 
       </div>
 
+      <h2 className="text-xl text-center flex gap-2 justify-center items-center animate-bounce text-neutral-200">
+        <p className="animate-pulse">
+          🚀
+        </p>
+        <p>
+          more coming soon...
+        </p>
+      </h2>
+
       <div className='mt-32 mb-16 flex gap-2 justify-center items-center '>
-                <Modal />
-                <Button onClick={damn}>
-                    Back to Top ↑
-                </Button>
-            </div>
+        <Modal />
+        <Button onClick={damn}>
+            Back to Top ↑
+        </Button>
+      </div>
     </main>
   )
 }

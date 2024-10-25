@@ -57,6 +57,7 @@ const nav = () => {
     <nav className=" w-full items-center justify-center text-sm lg:flex ">
         {/* <ul className="fixed left-0 top-0 flex w-full max-w-5xl justify-center border-b  bg-gradient-to-b from-zinc-200 pb-4 pt-4 lg:pb-3 lg:pt-3 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 lg:mt-12 gap-x-10 text-lime-400  pText">    */}
         <ul className="fixed z-50 left-0 top-0 flex w-full max-w-5xl justify-center border-b  bg-gradient-to-b pb-4 pt-4 lg:pb-3 lg:pt-3 backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:bg-zinc-800/30 lg:mt-12 sm:gap-x-10 gap-x-2  text-lime-400 ">   
+        {/* <ul className="fixed z-50 flex max-w-5xl justify-center bg-gradient-to-b backdrop-blur-2xl border-neutral-800 from-inherit rounded-xl border p-4 bg-zinc-800/30 w-auto top-2 mt-12 gap-x-6 text-lime-400 ">    */}
   
             <AnimatePresence> 
             {links.map((link) => {

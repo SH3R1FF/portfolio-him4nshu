@@ -27,6 +27,8 @@ import figma from './figma.svg'
 import shadcn from './shadcnui.svg'
 import vite from './vite.svg'
 import threejs from './threejs.svg'
+import mongodb from './mongodb.svg'
+import express from './express.svg'
 
 export {
     css,
@@ -48,6 +50,8 @@ export {
     shadcn,
     vite,
     threejs,
+    mongodb,
+    express,
     car,
     estate,
     pricewise,
