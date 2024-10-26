@@ -75,7 +75,7 @@ export default function Page() {
                       <Image
                         src={tech.link}
                         alt={tech.name}
-                        className="h-[26px] w-[26px]"
+                        className="h-[20px] w-[20px] lg:h-[26px] lg:w-[26px] "
                         />
                         
                   </Tooltip>
@@ -100,12 +100,14 @@ export default function Page() {
 
       </div>
 
-      <h2 className="text-xl text-center flex gap-2 justify-center items-center animate-bounce text-neutral-200">
+      <h2 className="lg:text-xl text-sm text-center flex gap-2 justify-center items-center animate-bounce text-neutral-200">
         <p className="animate-pulse">
           🚀
+          {/* 🔴 */}
+        
         </p>
         <p>
-          more coming soon...
+          Exciting Projects Launching Soon!
         </p>
       </h2>
 
