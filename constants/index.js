@@ -222,6 +222,49 @@ export const projects = [
         ],
     },
     {  
+        logo: 'https://zapscribe.vercel.app/favicon.ico', 
+        name: 'zapscribe',
+        description: 'Zapscribe generates captivating, custom text content instantly, perfect for blogs, social media, and more.',
+        live: 'https://zapscribe.vercel.app',
+        live_name: 'zapscribe.vercel.app',
+        github: 'https://github.com/SH3R1FF/zapscribe', 
+        tech: [
+          {
+            name: "Nextjs",
+            link: "https://nextjs.org/favicon.ico"
+          },
+          {
+            name: "Typescript",
+            link: "https://www.typescriptlang.org/icons/icon-144x144.png?v=8944a05a8b601855de116c8a56d3b3ae"
+          },
+          {
+            name: "NeonDB",
+            link: "https://neon.tech/favicon/favicon.png"
+            
+          },
+          {
+            name: "Drizzle",
+            link: "https://orm.drizzle.team/favicon.ico"
+            
+          },
+          {
+            name: "Clerk",
+            link: "https://dashboard.clerk.com/assets/favicon-dark.png"
+            
+          },
+          {
+            name: "Tailwind CSS",
+            link: "https://tailwindcss.com/favicons/favicon.ico?v=3"
+            
+          },
+          {
+            name: "Framer-Motion",
+            link: "https://framerusercontent.com/images/oDzmpTEmzhSSFTVezmsNykEEc.svg"
+            
+          },
+        ],
+    },
+    {  
         logo: 'https://sumz-summarizer.netlify.app/assets/favicon-60633b2b.ico',
         name: 'sumz-ai-summarizer',
         description: 'AI based Web application that condenses articles into concise summaries and saves time.',
@@ -291,34 +334,34 @@ export const projects = [
           
         ],
   },
-  {  
-    logo: 'https://zen-anime.vercel.app/favicon.ico',
-    name: 'zen-anime',
-    description: 'Application which is One-stop hub for anime titles with ratings for effortless exploration.',
-    live: 'https://zen-anime.vercel.app',
-    live_name: 'zen-anime.vercel.app',
-    github: 'https://github.com/SH3R1FF/zen_anime',
-    tech: [
-          {
-            name: "Nextjs",
-            link: "https://nextjs.org/favicon.ico"
-          },
-          {
-            name: "Typescript",
-            link: "https://www.typescriptlang.org/icons/icon-144x144.png?v=8944a05a8b601855de116c8a56d3b3ae"
-          },
-          {
-            name: "Tailwind CSS",
-            link: "https://tailwindcss.com/favicons/favicon.ico?v=3"
+//   {  
+//     logo: 'https://zen-anime.vercel.app/favicon.ico',
+//     name: 'zen-anime',
+//     description: 'Application which is One-stop hub for anime titles with ratings for effortless exploration.',
+//     live: 'https://zen-anime.vercel.app',
+//     live_name: 'zen-anime.vercel.app',
+//     github: 'https://github.com/SH3R1FF/zen_anime',
+//     tech: [
+//           {
+//             name: "Nextjs",
+//             link: "https://nextjs.org/favicon.ico"
+//           },
+//           {
+//             name: "Typescript",
+//             link: "https://www.typescriptlang.org/icons/icon-144x144.png?v=8944a05a8b601855de116c8a56d3b3ae"
+//           },
+//           {
+//             name: "Tailwind CSS",
+//             link: "https://tailwindcss.com/favicons/favicon.ico?v=3"
             
-          },
-          {
-            name: "Framer-Motion",
-            link: "https://framerusercontent.com/images/oDzmpTEmzhSSFTVezmsNykEEc.svg"
+//           },
+//           {
+//             name: "Framer-Motion",
+//             link: "https://framerusercontent.com/images/oDzmpTEmzhSSFTVezmsNykEEc.svg"
             
-          },
-      ],
-},
+//           },
+//       ],
+// },
 
     {  
         logo: 'https://ai-startup-landing-page-one.vercel.app/favicon.ico',
