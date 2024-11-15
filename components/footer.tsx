@@ -10,7 +10,9 @@ const footer = () => {
         <Divider className='bg-slate-50/20 ' />
           
           <div className='flex justify-center items-center gap-x-2 '>
+            <h1 className='text-neutral-100'>
               Designed and Developed By 
+            </h1>
               
               <Link target="_blank" href="https://twitter.com/sheriffign" rel="noreferrer">
                   <div className='text-sm flex gap-x-2 text-lime-300 font-medium justify-center items-center 

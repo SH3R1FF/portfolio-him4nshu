@@ -37,7 +37,7 @@ export default function App() {
           {(onClose) => (
             <>
               <ModalHeader className="flex flex-col gap-1 text-lime-100 font-medium">Download Resume</ModalHeader>
-              <ModalBody >
+              <ModalBody className="text-neutral-400" >
                 <p> 
                     Passionate and detail-oriented Web Developer with a strong foundation in programming and a passion for
                     creating user-friendly, scalable, and efficient web applications. I am eager to apply my technical skills and

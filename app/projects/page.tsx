@@ -25,7 +25,7 @@ export default function Page() {
   return (
     
     <main className="max-container ">
-      <h1 className="heading sm:text-7xl text-3xl font-black text-center animate-slidein opacity-0 [--slidein-delay:300ms]">
+      <h1 className="heading sm:text-7xl text-3xl font-black text-center animate-slidein opacity-0 [--slidein-delay:300ms] text-neutral-100">
           PROJECTS
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-400 animate-slidein opacity-0 [--slidein-delay:300ms]">
@@ -90,6 +90,7 @@ export default function Page() {
                  isExternal
                  showAnchorIcon
                  href={project.github}
+                 className="text-blue-700"
                  >
                  Visit source code on GitHub.
                </Link>

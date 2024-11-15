@@ -258,12 +258,65 @@ export const projects = [
             
           },
           {
+            name: "Gemini",
+            link: "https://www.gstatic.com/lamda/images/gemini_favicon_f069958c85030456e93de685481c559f160ea06b.png"
+            
+          },
+          {
             name: "Framer-Motion",
             link: "https://framerusercontent.com/images/oDzmpTEmzhSSFTVezmsNykEEc.svg"
             
           },
         ],
     },
+    {  
+      logo: 'https://joinprepwise.vercel.app/favicon.ico',
+      name: 'prepwise',
+      description: 'An Experience AI saas website with a sleek touch, offering a fully responsive design and modern UI/UX.',
+      live: 'https://joinprepwise.vercel.app',
+      live_name: 'joinprepwise.vercel.app',
+      github: 'https://github.com/SH3R1FF/prepwise',
+      tech: [
+        {
+          name: "Nextjs",
+          link: "https://nextjs.org/favicon.ico"
+        },
+        {
+          name: "Javascript",
+          link: "https://cdn-icons-png.flaticon.com/128/5968/5968292.png"
+        },
+        {
+          name: "Tailwind CSS",
+          link: "https://tailwindcss.com/favicons/favicon.ico?v=3"
+          
+        },
+        {
+          name: "NeonDB",
+          link: "https://neon.tech/favicon/favicon.png"
+          
+        },
+        {
+          name: "Drizzle",
+          link: "https://orm.drizzle.team/favicon.ico"
+          
+        },
+        {
+          name: "Clerk",
+          link: "https://dashboard.clerk.com/assets/favicon-dark.png"
+          
+        },
+        {
+          name: "Gemini",
+          link: "https://www.gstatic.com/lamda/images/gemini_favicon_f069958c85030456e93de685481c559f160ea06b.png"
+          
+        },
+        {
+          name: "Lottie",
+          link: "https://stp-v4-cdn.lottiefiles.com/Lottie_Creator_d015ee2074.svg"
+          
+        },
+      ],
+  },
     {  
         logo: 'https://sumz-summarizer.netlify.app/assets/favicon-60633b2b.ico',
         name: 'sumz-ai-summarizer',
@@ -363,39 +416,39 @@ export const projects = [
 //       ],
 // },
 
-    {  
-        logo: 'https://ai-startup-landing-page-one.vercel.app/favicon.ico',
-        name: 'ai-saas-landing-page',
-        description: 'An Experience AI saas website with a sleek touch, offering a fully responsive design and modern UI/UX.',
-        live: 'https://ai-startup-landing-page-one.vercel.app',
-        live_name: 'ai-startup-landing.vercel.app',
-        github: 'https://github.com/SH3R1FF/ai-startup-landing-page',
-        tech: [
-          {
-            name: "Nextjs",
-            link: "https://nextjs.org/favicon.ico"
-          },
-          {
-            name: "Typescript",
-            link: "https://www.typescriptlang.org/icons/icon-144x144.png?v=8944a05a8b601855de116c8a56d3b3ae"
-          },
-          {
-            name: "Tailwind CSS",
-            link: "https://tailwindcss.com/favicons/favicon.ico?v=3"
+    // {  
+    //     logo: 'https://ai-startup-landing-page-one.vercel.app/favicon.ico',
+    //     name: 'ai-saas-landing-page',
+    //     description: 'An Experience AI saas website with a sleek touch, offering a fully responsive design and modern UI/UX.',
+    //     live: 'https://ai-startup-landing-page-one.vercel.app',
+    //     live_name: 'ai-startup-landing.vercel.app',
+    //     github: 'https://github.com/SH3R1FF/ai-startup-landing-page',
+    //     tech: [
+    //       {
+    //         name: "Nextjs",
+    //         link: "https://nextjs.org/favicon.ico"
+    //       },
+    //       {
+    //         name: "Typescript",
+    //         link: "https://www.typescriptlang.org/icons/icon-144x144.png?v=8944a05a8b601855de116c8a56d3b3ae"
+    //       },
+    //       {
+    //         name: "Tailwind CSS",
+    //         link: "https://tailwindcss.com/favicons/favicon.ico?v=3"
             
-          },
-          {
-            name: "Framer-Motion",
-            link: "https://framerusercontent.com/images/oDzmpTEmzhSSFTVezmsNykEEc.svg"
+    //       },
+    //       {
+    //         name: "Framer-Motion",
+    //         link: "https://framerusercontent.com/images/oDzmpTEmzhSSFTVezmsNykEEc.svg"
             
-          },
-          {
-            name: "Lottie",
-            link: "https://stp-v4-cdn.lottiefiles.com/Lottie_Creator_d015ee2074.svg"
+    //       },
+    //       {
+    //         name: "Lottie",
+    //         link: "https://stp-v4-cdn.lottiefiles.com/Lottie_Creator_d015ee2074.svg"
             
-          },
-        ],
-    },
+    //       },
+    //     ],
+    // },
     // {  
     //     name: 'hoobank-app',
     //     description: 'An Experience banking website with a sleek touch, offering a fully responsive design and modern UI/UX.',

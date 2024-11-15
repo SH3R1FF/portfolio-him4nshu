@@ -27,9 +27,11 @@ export default function RootLayout({
         </head>
       <body className={prompt.className}>
         <Providers>
+          <div className="bg-neutral-950 ">
             <Nav/>
             {children}
             <Footer/>
+          </div>
         </Providers>
       </body>
     </html>

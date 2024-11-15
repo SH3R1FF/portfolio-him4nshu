@@ -7,7 +7,7 @@ const about = () => {
     <>
         <section className="relative flex-col max-w-5xl mx-auto sm:p-16 pb-12 lg:block px-8 sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] flex  opaaaaa">
             <div>
-                <h1 className="heading sm:text-7xl text-3xl font-black text-center animate-slidein opacity-0 [--slidein-delay:300ms]">
+                <h1 className="heading sm:text-7xl text-3xl font-black text-center animate-slidein opacity-0 [--slidein-delay:300ms] text-neutral-100">
                     ABOUT
                 </h1>
                 <div className="mt-5 flex flex-col gap-3 text-slate-400 animate-slidein opacity-0 [--slidein-delay:300ms]">
