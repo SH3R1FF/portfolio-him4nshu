@@ -49,11 +49,11 @@ export default function Home() {
             <div className="lg:mt-16 mt-12 flex gap-x-6  max-sm:flex-col pText font-medium  max-sm:gap-y-3 ">
               <Modalular />
               
-              <Link href={"/contact"}>
+              <Link href={"/contact"} >
                 <Button 
                   
                   // onClick={damn} 
-                  className=" pText font-medium"  endContent={<Contact width="18" height="18" className=""/>}>
+                  className=" pText font-medium w-full"  endContent={<Contact width="18" height="18" className=""/>}>
                       {/* Explore */}
                       Contact Me
                 </Button>

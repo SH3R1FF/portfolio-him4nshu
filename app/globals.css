@@ -97,7 +97,8 @@ li {
 
 @layer utilities {
   .max-container {
-    @apply max-w-5xl mx-auto sm:p-16 pb-12 sm:!pt-[80px] !pt-[100px] px-8 sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] ; 
+    /* @apply max-w-5xl mx-auto sm:p-16 pb-12 sm:!pt-[80px] !pt-[100px] px-8 sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] ;  */
+    @apply max-w-5xl mx-auto sm:p-16 pb-12 sm:!pt-[80px] !pt-[30px]  px-8 sm:min-h-[calc(100vh-80px)] md:min-h-[100vh] min-h-[100vh] ; 
 
   }
 
