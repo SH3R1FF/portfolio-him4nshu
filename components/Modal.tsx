@@ -1,13 +1,14 @@
 import React from "react";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 import Link from "next/link";
+import { Download } from "lucide-react";
 
 export default function App() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
   return (
     <>
-      <Button onPress={onOpen} className="font-medium bg-lime-400 ">Download Resume</Button>
+      <Button endContent={<Download  width="18" height="18"/>} onPress={onOpen} className="font-medium bg-lime-400 ">Download Resume</Button>
       <Modal 
         backdrop="blur" 
         isOpen={isOpen} 
@@ -48,7 +49,7 @@ export default function App() {
                 <Button color="danger" variant="light" onPress={onClose}>
                   Close
                 </Button>
-                <Link href="https://drive.google.com/file/d/1M3Idnj1e_aAjcnrNKmCqWx1M6V58QBa2/view?usp=drive_link" target="_blank" rel="noreferrer" >
+                <Link href="https://drive.google.com/file/d/1ATz88WzeVe0ksN6vCIkjoC7zd_-JUwnd/view?usp=sharing" target="_blank" rel="noreferrer" >
                     <Button className="bg-lime-400" onPress={onClose}>
                         Visit
                     </Button>

@@ -25,7 +25,7 @@ export default function RootLayout({
        <head>
           <script src="https://kit.fontawesome.com/160be924aa.js" crossOrigin="anonymous"></script>
         </head>
-      <body className={prompt.className}>
+      <body className={prompt.className} >
         <Providers>
           <div className="bg-neutral-950 ">
             <Nav/>

@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: rgb(10 10 10 / var(--tw-bg-opacity))
+}
 
 :root {
 
@@ -176,7 +179,7 @@ html::-webkit-scrollbar-thumb:active {
   border-radius: 10px;
 }
 
-@layer base {
+/* @layer base {
   :root {
 
     --background: 0 0% 100%;
@@ -288,4 +291,4 @@ html::-webkit-scrollbar-thumb:active {
   body {
     @apply bg-background text-foreground;
   }
-}
+} */

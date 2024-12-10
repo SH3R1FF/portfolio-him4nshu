@@ -61,7 +61,8 @@ export default function Page() {
                </div>
              </CardHeader>
              <Divider className="bg-slate-50/20"/>
-            <Skeleton className="rounded-lg dark:bg-zinc-800/30 dark bg-zinc-800/30 " isLoaded={isLoaded}>
+
+            {/* <Skeleton className="bg-zinc-800 " isLoaded={isLoaded}> */}
               
              <CardBody>
                <p className="text-slate-400 py-2 text-sm">{project.description}</p>
@@ -83,8 +84,10 @@ export default function Page() {
         
              </CardBody>
 
-            </Skeleton>
+            {/* </Skeleton> */}
+
              <Divider className="bg-slate-50/20"/>
+
              <CardFooter>
                <Link
                  isExternal
